@@ -1,0 +1,90 @@
+:root{
+    --bg-main: hsl(216, 12%, 8%);
+    --bg-card: hsl(213, 19%, 12%);
+    --gray: hsl(216, 12%, 54%);
+    --orange: hsl(25, 97%, 53%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+body{
+    font-size: 15px;
+    background-color: var(--bg-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.card{
+    width: 380px;
+    padding: 16px;
+    border-radius: 19px;
+    background-color: var(--bg-card);
+    box-shadow: 6px 5px 10px 1px rgba(0,0,0,0.2);
+}
+.container{
+    margin: 20px;
+}
+.star-btn{
+    background-color:  hsl(213, 19%, 22%);
+    border-radius: 50%;
+    border: none;
+    width: 3em;
+    height: 3em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.fa-solid{
+   color: orange;
+   
+}
+.description{
+    color:hsl(217, 12%, 50%);
+    margin: 15px 0px;
+}
+
+.rating-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.75rem 0rem;
+}
+.btn{
+    margin: 10px 0px;
+    border-radius: 50%;
+    border: none;
+    width: 3.25em;
+    height: 3.25em;
+   background-color:  hsl(213, 19%, 22%);
+   color: hsl(217, 12%, 63%);
+}
+
+.submit{
+    background-color: var(--orange);
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 0px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.submit:hover{
+    background-color: white;
+    color: orange;
+}
